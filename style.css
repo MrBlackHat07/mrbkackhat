@@ -1,17 +1,16 @@
 body{
-  height:10000px;
+  width:auto;
+  height:auto;
   background:linear-gradient(to left, #4ddbff,#ff25f9)
 }
 h1{
-  margin:10px;
   color:white;
-border:#00ff03 3px solid;
-  animation: animation_name 2s;
+  animation: animation_name 5s infinite;
 }
 @-webkit-keyframes animation_name
 {
-from{border: 1px solid green;}
-to{border: 5px solid red;}
+from{border: 3px solid #4ddbff;}
+to{border: 3px solid #ff25f9;}
 }
 @-webkit animation_name
 {
@@ -24,7 +23,6 @@ h3{
   text-align:center;
 }
 .container{
-  text-align:center;
   text-decoration:none;
 }
 .l1{
