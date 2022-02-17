@@ -1,0 +1,44 @@
+body{
+  height:10000px;
+  background:linear-gradient(to left, #4ddbff,#ff25f9)
+}
+h1{
+  margin:10px;
+  color:white;
+border:#00ff03 3px solid;
+  animation: animation_name 2s;
+}
+@-webkit-keyframes animation_name
+{
+from{border: 1px solid green;}
+to{border: 5px solid red;}
+}
+@-webkit animation_name
+{
+from{box-shadow: 1px 1px 1px #888888;}
+to{box-shadow: 5px 5px 5px #888888;}
+
+}
+h3{
+  text-size:80px;
+  text-align:center;
+}
+.container{
+  text-align:center;
+  text-decoration:none;
+}
+.l1{
+  text-decoration:none;
+  color:rgb(129,255,147);
+}
+.c1{
+  border:#81e6ff 5px solid ;
+  padding:10px ;
+  text-align:center;
+}
+.li:hover{
+  color:red;
+}
+.card1{
+text-align:center;
+}
